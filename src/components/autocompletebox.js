@@ -9,12 +9,13 @@ class AutocompleteBox extends Component {
   };
 
   handleChange = (e) => {
+    console.log(process.env.REACT_APP_GOOGLE_API_KEY);
     const val = e.target.value;
     console.log(val);
     const url =
       "https://maps.googleapis.com/maps/api/place/autocomplete/json?input=" +
-      val +
-      "&key=AIzaSyCkZDgllKqSOzAbYWBsJ2DK3ILxTpaxx0U";
+      val +"&key="+
+      process.env.REACT_APP_GOOGLE_API_KEY;
 
     fetch(url)
       .then((response) => {
