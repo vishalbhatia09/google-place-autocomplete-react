@@ -1,6 +1,9 @@
 <H2>
-A Simple React App implementing google place autocomplete API. It is using the API end-point and javascript fetch function. Key up-down events are implemented.
+A Simple React App implementing google place autocomplete API.
 </H2>
+
+It is using the API end-point and javascript fetch function. Key up-down events are implemented.
+
 <br />
 <br />
 
