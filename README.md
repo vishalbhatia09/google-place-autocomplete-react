@@ -2,6 +2,9 @@
 
 <br />
 <br />
+
+A Simple React App implementing google place autocomplete API. It is using the API end-point and javascript fetch function. Key up-down events are implemented.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

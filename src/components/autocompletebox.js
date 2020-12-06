@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-//import axios from "axios";
 
 class AutocompleteBox extends Component {
   state = {
@@ -36,15 +35,6 @@ class AutocompleteBox extends Component {
     this.setState({ value: e.target.value });
   };
 
-  /*handleKeyDown = (e) => {
-    if (e.keyCode === 40){
-      if (this.state.cursor <= this.state.suggested_items.length){
-    this.setState({ value: this.state.suggested_items[this.state.cursor]});
-    this.setState({cursor : this.state.cursor + 1});
-      }
-    }
-  };*/
-
   handleKeyUp = (e) => {
     if (e.keyCode === 38 && this.state.cursor >= 0){
       if (this.state.cursor <= this.state.suggested_items.length && this.state.cursor >= 0){
@@ -71,7 +61,6 @@ class AutocompleteBox extends Component {
     }
   };
 
-
   handleClick = (item) => {
     this.setState({ value: item });
   };
@@ -93,7 +82,6 @@ class AutocompleteBox extends Component {
       margin: "200px",
     };
 
-  
     return (
       <div style={divstyle}>
         <input
