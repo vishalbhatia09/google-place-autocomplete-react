@@ -1,9 +1,13 @@
+<H1>
+A Simple React App implementing google place autocomplete API. It is using the API end-point and javascript fetch function. Key up-down events are implemented.
+</H1>
+<br />
+<br />
+
 ![](google-autocomplete-react.gif)
 
 <br />
 <br />
-
-A Simple React App implementing google place autocomplete API. It is using the API end-point and javascript fetch function. Key up-down events are implemented.
 
 # Getting Started with Create React App
 
