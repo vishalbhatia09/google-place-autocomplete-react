@@ -8,7 +8,6 @@ class AutocompleteBox extends Component {
   };
 
   handleChange = (e) => {
-    console.log(process.env.REACT_APP_GOOGLE_API_KEY);
     const val = e.target.value;
     console.log(val);
     const url =
@@ -29,8 +28,6 @@ class AutocompleteBox extends Component {
       .catch((error) => {
         console.log(error);
       });
-
-    console.log(this.state.suggested_items);
 
     this.setState({ value: e.target.value });
   };
